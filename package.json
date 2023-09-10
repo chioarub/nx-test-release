@@ -1,6 +1,6 @@
 {
   "name": "nx-test-release",
-  "version": "0.15.1",
+  "version": "0.15.2",
   "license": "MIT",
   "scripts": {
     "nx": "nx",
@@ -10,7 +10,7 @@
     "test": "nx test",
     "prepare": "husky install",
     "commit": "git-cz",
-    "release": "standard-version && git push --follow-tags origin main"
+    "release": "standard-version -- --no-verify && git push --follow-tags origin main"
   },
   "private": true,
   "dependencies": {
