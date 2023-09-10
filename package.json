@@ -10,7 +10,8 @@
     "test": "nx test",
     "prepare": "husky install",
     "commit": "git-cz",
-    "release": "standard-version -- --no-verify && git push --follow-tags origin main"
+    "release:create": "standard-version",
+    "release:publish": "git push --follow-tags origin main"
   },
   "private": true,
   "dependencies": {
