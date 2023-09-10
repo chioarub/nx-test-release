@@ -1,6 +1,6 @@
 {
   "name": "nx-test-release",
-  "version": "0.15.4",
+  "version": "0.0.1",
   "license": "MIT",
   "scripts": {
     "nx": "nx",
@@ -10,7 +10,7 @@
     "test": "nx test",
     "prepare": "husky install",
     "commit": "git-cz",
-    "release:create": "standard-version -- --no-verify",
+    "release": "commit-and-tag-version",
     "release:publish": "git push --follow-tags origin main"
   },
   "private": true,
@@ -53,6 +53,7 @@
     "@types/node": "16.11.7",
     "@typescript-eslint/eslint-plugin": "^5.60.1",
     "@typescript-eslint/parser": "^5.60.1",
+    "commit-and-tag-version": "^11.2.3",
     "commitizen": "^4.3.0",
     "cypress": "^13.0.0",
     "cz-conventional-changelog": "^3.3.0",
