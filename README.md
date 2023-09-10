@@ -61,3 +61,16 @@ Nx comes with local caching already built-in (check your `nx.json`). On CI you m
 - [Join the community](https://nx.dev/community)
 - [Subscribe to the Nx Youtube Channel](https://www.youtube.com/@nxdevtools)
 - [Follow us on Twitter](https://twitter.com/nxdevtools)
+
+## Commit flow
+
+### Feature branch
+
+- [feature-branch] `git add .`
+- [feature-branch] `npm run commit`
+- [feature-branch] `git push`
+
+### Merging into main
+
+- [main-branch] `npm run release`
+- [main-branch] `git push --follow-tags origin main`
