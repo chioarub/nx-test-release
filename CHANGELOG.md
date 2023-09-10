@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [2.1.0](https://github.com/chioarub/nx-test-release/compare/v2.0.0...v2.1.0) (2023-09-10)
+
+
+### Features
+
+* some feature ([90f216d](https://github.com/chioarub/nx-test-release/commit/90f216d5ebe33f243fdeef7af86b5baff22537ac))
+
 ## [2.0.0](https://github.com/chioarub/nx-test-release/compare/v1.0.2...v2.0.0) (2023-09-10)
 
 
