@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.15.4](https://github.com/chioarub/nx-test-release/compare/v0.15.3...v0.15.4) (2023-09-10)
+
+
+### Features
+
+* release v01 ([bd86032](https://github.com/chioarub/nx-test-release/commit/bd8603252c6ab4c5c526480f3c7640f480d9026e))
+
 ### [0.15.3](https://github.com/chioarub/nx-test-release/compare/v0.15.2...v0.15.3) (2023-09-10)
 
 
